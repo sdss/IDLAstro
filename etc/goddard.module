@@ -62,7 +62,7 @@ setenv [string toupper $product]_DIR $PRODUCT_DIR
 # sdss4install script.
 #
 # {needs_bin}prepend-path PATH $PRODUCT_DIR/bin
-{needs_idl}prepend-path IDL_PATH +$PRODUCT_DIR/
+{needs_idl}prepend-path IDL_PATH +$PRODUCT_DIR/pro
 # {needs_python}prepend-path PYTHONPATH $PRODUCT_DIR/lib/{pyversion}/site-packages
 # {needs_trunk_python}prepend-path PYTHONPATH $PRODUCT_DIR/python
 # {needs_ld_lib}prepend-path LD_LIBRARY_PATH $PRODUCT_DIR/lib

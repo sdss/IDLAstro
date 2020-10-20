@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+08-Jun-2020: HEULER - Update PV1 keywords if present with updated LONGPOLE, LATPOLE values
+
+=======
+>>>>>>> d4226a94d897f69ef817b5ba78ea12d62c472896
+27-Feb-2020: RESISTANT_MEAN - Added output BadVec keyword giving unused indicies
+
+31-Oct-2019: SUNSYMBOL() - Use DejaVuSymbol truetype font for IDL 8.6.1 or later
+
+30-Oct-2019: FITS_ADD_CHECKSUM - Locate CHECKSUM keyword after DATASUM
+
+28-Oct-2019: FXADDPAR, FXPAR() - Make MULTIVALUE keyword work with continuation convention
+
+1-Sep-2019;  MWRFITS - Typo corrected from 1-Aug update
+
+26-Aug-2019: KSONE - Added INTEGER keyword, WINDOW keyword, fix plotting
+
+22-Aug-2019: FXPAR, FXADDPAR - Added MULTIVALUE keyword to support distortion parameters
+
+1-Aug-2019  MWRFITS - Document that MWRFITS can't handle byte arrays in ASCII table
+            KSONE - Now returns location of maximum deviation
+
+3-Jul-2019: CHECKSUM32 - Add incremental calculation of checksums
+            CHECK_FITS, FXWRITE - New /ALLOW_DEGEN keyword to keep degenerate dimensions
+
+3-Jun-2019:  MWRFITS - Don't pad with 2880 bytes in ASCII tables, instead set to 0
+
 8-Feb-2019: FXBREAD - Fix problem reading string arrays in extension
 
 27-Sep-2018: MRDFITS() - Can now read an empty binary table

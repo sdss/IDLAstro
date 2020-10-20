@@ -69,4 +69,4 @@ setenv [string toupper $product]_DIR $PRODUCT_DIR
 #
 # Add any non-standard Module code below this point.
 #
-module load coyote
+module load coyote/1.0.0
